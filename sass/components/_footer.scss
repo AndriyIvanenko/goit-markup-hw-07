@@ -1,0 +1,28 @@
+.footer {
+	background-color: $backgroundColor;
+	padding: 60px 0;
+}
+.section-container--footer {
+	flex-direction: row;
+}
+
+.footer-sm {
+	padding-top: 12px;
+	margin-left: 85px;
+
+	&__title {
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1.14;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+
+		color: $inverseColor;
+	}
+}
+.sm-list--footer {
+	margin-top: 20px;
+}
+.sm-list__link--footer {
+	background-color: rgba(255, 255, 255, 0.1);
+}

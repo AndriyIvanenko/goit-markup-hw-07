@@ -1,0 +1,38 @@
+.logo {
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+
+	display: inline-flex;
+	// word-spacing: -0.25em;
+
+	color: #000;
+
+	text-decoration: none;
+
+	border-radius: 4px;
+	outline: 1px solid $inverseColor;
+	padding: 0 5px;
+	transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	// align-self: center;
+
+	&__accent {
+		color: $accentColor;
+	}
+	&--footer {
+		color: $inverseColor;
+		outline-color: $backgroundColor;
+	}
+	&:focus {
+		outline: 1px solid $accentColor;
+		border-radius: 4px;
+		padding: 0 5px;
+
+		transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	&--footer:focus {
+		outline-color: $inverseColor;
+	}
+}
