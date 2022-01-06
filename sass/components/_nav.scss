@@ -1,16 +1,16 @@
 .nav {
 	display: flex;
+}
 
-	&__list {
-		display: flex;
-		align-items: center;
+.nav__list {
+	display: flex;
+	align-items: center;
 
-		margin-left: 93px;
-	}
+	margin-left: 93px;
+}
 
-	&__item:not(:first-child) {
-		margin-left: 50px;
-	}
+.nav__item:not(:first-child) {
+	margin-left: 50px;
 }
 
 .nav__link {
